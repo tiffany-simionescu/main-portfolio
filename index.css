@@ -267,11 +267,9 @@ input[type="checkbox"]:checked ~ section {
 }
 
 .resume {
-  /* all: unset; */
   height: 700px;
   width: 100%;
   display: flex;
-  /* align-content: center; */
   justify-content: space-between;
 }
 
@@ -292,7 +290,6 @@ input[type="checkbox"]:checked ~ section {
   position: absolute;
   display: flex;
   height: calc(100% - 200px);
-  /* width: 100%; */
   width: calc(100% - 200px);
   z-index: 100; 
 }
@@ -325,21 +322,16 @@ input[type="checkbox"]:checked ~ section {
   top: 100px;
   left: 100px;
   height: calc(100% - 200px);
-  /* height: 100%; */
-  /* height: calc(100% - 100px); */
   width: calc(100% - 200px);
   z-index: 100000;
   opacity: 1;
-  /* filter: grayscale(1); */
 }
 
 .resume .contentBx .resume-container .resume-box .resume-imgBx.active .resume-info {
   position: fixed;
   top: 30px;
   left: 300px;
-  /* width: 700px; */
   width: calc(100% - 460px);
-  /* height: 500px; */
   height: calc(100% - 35px);
   color: #fff;
   background: rgba(93, 154, 119, 0.9);
@@ -540,12 +532,12 @@ svg circle:nth-child(2) {
 
 .skill-card:nth-child(5) svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 85) / 100);
-  stroke: #00ff43;
+  stroke: #00a1ff;
 }
 
 .skill-card:nth-child(6) svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 85) / 100);
-  stroke: #00ff43;
+  stroke: #ff04f3;
 }
 
 .skill-card:nth-child(7) svg circle:nth-child(2) {
@@ -555,7 +547,18 @@ svg circle:nth-child(2) {
 
 .skill-card:nth-child(8) svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 80) / 100);
-  stroke: #00ff43;
+  stroke: #00a1ff;
+}
+
+.resume-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 140px;
+  margin: auto;
+  margin-top: -60px;
+  margin-bottom: 60px;
 }
 
 .portfolio {
