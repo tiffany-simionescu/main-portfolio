@@ -765,7 +765,7 @@ svg circle:nth-child(2) {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
-  margin-left: -40px;
+  margin-left: -100px;
 }
 
 .portfolio-list-section ul li {
@@ -778,16 +778,18 @@ svg circle:nth-child(2) {
 }
 
 .portfolio-list-section ul li.active {
-  background: #03a9f4;
+  background: #5D9A77;
   color: #fff;
 }
 
 .projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex;
   align-content: center;
+  min-width: 900px;
+  margin-left: -65px;
 }
 
 .projects .itemBox {
@@ -822,7 +824,28 @@ svg circle:nth-child(2) {
   transform: scale(1.2);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1025px) {
+
+  .banner .content h2 {
+    font-size: 4.5em;
+  }
+
+  .banner .content p {
+    font-size: 1.3em;
+  }
+
+  .portfolio-list-section ul {
+    margin-left: -130px;
+  }
+  
+  .projects {
+    max-width: 90%;
+    margin-left: -35px;
+  }
+}
+
+
+@media (max-width: 769px) {
   
   section {
     padding: 40px;
@@ -943,7 +966,7 @@ svg circle:nth-child(2) {
   .projects {
     margin-left: -35px;
   }
-  
+
   .projects .itemBox img {
     opacity: 0.2;
     transform: scale(1);
