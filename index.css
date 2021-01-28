@@ -1141,4 +1141,34 @@ svg circle:nth-child(2) {
   .skill-card:nth-child(8) .skill-box .skill-percent .skill-number h2 span {
     color: #00a1ff;
   }
+
+  .portfolio-list-section ul {
+    flex-wrap: wrap;
+    margin-left: -130px;
+    max-width: 450px;
+  }
+
+  .projects {
+    min-width: 200px;
+    margin-left: -53px;
+  }
+
+  .projects .itemBox {
+    width: 305px;
+    height: 305px;
+    margin: 8px;
+  }
+
+  .projects .itemBox img {
+    opacity: 0.2;
+  }
+
+  .projects .itemBox h3,
+  .projects .itemBox p {
+    text-align: center;
+  }
+
+  .footer h4 {
+    font-size: 1em;
+  }
 }
