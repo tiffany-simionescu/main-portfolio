@@ -972,3 +972,173 @@ svg circle:nth-child(2) {
     transform: scale(1);
   }
 }
+
+
+@media (max-width: 481px) {
+  .banner .content h2 {
+    font-size: 2.2em;
+  }
+
+  .banner .content p {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+
+  .resume {
+    min-height: 700px;
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: none;
+  }
+  
+  .resume .titleText {
+    margin-left: 130px;
+  }
+  
+  .resume .contentBx .resume-container {
+    position: relative;
+    flex-wrap: wrap;
+    max-width: 450px;
+  }
+  
+  .resume .contentBx .resume-container .resume-box {
+    width: 500px;
+    border-bottom: 10px solid #252423;
+  }
+  
+  .resume .contentBx .resume-container .resume-box .resume-imgBx.active {
+    top: 80px;
+    left: 20px;
+    height: calc(100% - 100px);
+    width: calc(100% - 50px);
+  }
+
+  .resume .contentBx .resume-container .resume-box .resume-imgBx.active .skills-heading {
+    margin: 20px 160px;
+  }
+  
+  .resume .contentBx .resume-container .resume-box .resume-imgBx.active .resume-info {
+    top: 90px;
+    left: 25px;
+    width: calc(100% - 50px);
+    height: calc(100% - 108px);
+  }
+  
+  .resume .contentBx .resume-container .resume-box .resume-imgBx:hover {
+    transform: scale(1.0);
+  }
+  
+  .resume .contentBx .resume-container .resume-box .resume-imgBx:hover h3 {
+    background: #5D9A77;
+    transition: 0.5s;
+  }
+  
+  .resume .contentBx .resume-container .resume-box .resume-imgBx h3 {
+    margin-right: 30px;
+  }
+  
+  .resume .contentBx .resume-container .resume-box .resume-imgBx.active h3 {
+    margin: 20px 125px;
+  }
+
+  .resume .contentBx .resume-container .resume-box .resume-imgBx.active .resume-info ul li {
+    font-size: 0.8em;
+  }
+
+  .resume .contentBx .resume-container .resume-box .resume-imgBx.active .resume-info h4 {
+    font-size: 0.8em;
+  }
+
+  .resume .contentBx .resume-container .resume-box .resume-imgBx.active .resume-info h5 {
+    font-size: 0.8em;
+  }
+  
+  .skill-img {
+    min-height: 650px;
+  }
+  
+  .skill-container {
+    width: 342px;
+  }
+  
+  .skill-container .skill-card {
+    width: 125px;
+    height: 125px;
+  }
+  
+  .skill-percent {
+    width: 150px;
+    height: 150px;
+    border-radius: 0%;
+    box-shadow: none;
+    background: transparent;
+    z-index: 0;
+    margin-top: -50px;
+  }
+  
+  .skill-percent .skill-number h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .skill-card:hover .skill-percent .skill-number h2 {
+    font-size: 40px;
+  }
+  
+  .skill-percent .skill-number h2 span {
+    color: #fff;
+  }
+  
+  .skill-text {
+    color: #fff;
+    margin-top: -30px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+  svg circle:nth-child(2) {
+    display: none;
+  }
+
+  .skill-card:nth-child(1) .skill-box .skill-percent .skill-number h2,
+  .skill-card:nth-child(1) .skill-box .skill-percent .skill-number h2 span {
+    color: #00ff43;
+  }
+
+  .skill-card:nth-child(2) .skill-box .skill-percent .skill-number h2,
+  .skill-card:nth-child(2) .skill-box .skill-percent .skill-number h2 span {
+    color: #00a1ff;
+  }
+  
+  .skill-card:nth-child(3) .skill-box .skill-percent .skill-number h2,
+  .skill-card:nth-child(3) .skill-box .skill-percent .skill-number h2 span {
+    color: #ff04f3;
+  }
+  
+  .skill-card:nth-child(4) .skill-box .skill-percent .skill-number h2,
+  .skill-card:nth-child(4) .skill-box .skill-percent .skill-number h2 span {
+    color: #00ff43;
+  }
+
+  .skill-card:nth-child(5) .skill-box .skill-percent .skill-number h2,
+  .skill-card:nth-child(5) .skill-box .skill-percent .skill-number h2 span {
+    color: #00a1ff;
+  }
+  
+  .skill-card:nth-child(6) .skill-box .skill-percent .skill-number h2,
+  .skill-card:nth-child(6) .skill-box .skill-percent .skill-number h2 span {
+    color: #ff04f3;
+  }
+
+  .skill-card:nth-child(7) .skill-box .skill-percent .skill-number h2,
+  .skill-card:nth-child(7) .skill-box .skill-percent .skill-number h2 span {
+    color: #00ff43;
+  }
+
+  .skill-card:nth-child(8) .skill-box .skill-percent .skill-number h2,
+  .skill-card:nth-child(8) .skill-box .skill-percent .skill-number h2 span {
+    color: #00a1ff;
+  }
+}
