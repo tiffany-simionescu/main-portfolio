@@ -157,7 +157,7 @@ input[type="checkbox"]:checked ~ section {
   width: 100%;
   height: 100%;
   z-index: 1;
-  background: linear-gradient(to top, rgba(37, 36, 35, 1), rgba(37, 36, 35, 0.3));
+  background: linear-gradient(to top, rgba(37, 36, 35, 1), rgba(37, 36, 35, 0.2));
 }
 
 .banner .content {
