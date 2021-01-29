@@ -928,6 +928,27 @@ svg circle:nth-child(2) {
 }
 
 
+@media (max-width: 1000px) {
+
+  .portfolio-list-section {
+    left: 0px;
+    margin-top: 10px;
+    margin-left: -7%;
+  }
+
+  .portfolio-list-section ul {
+    margin-left: 0;
+    margin-right: 50px;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+
+  .projects {
+    margin-left: 0px;
+  }
+}
+
+
 @media (max-width: 980px) {
 
   .banner .content h2 {
@@ -938,6 +959,31 @@ svg circle:nth-child(2) {
     font-size: 1.1em;
   }
 }
+
+
+@media (max-width: 925px) {
+
+  .portfolio-list-section {
+    left: 0px;
+    margin-top: 10px;
+    margin-left: -7%;
+  }
+
+  .portfolio-list-section ul {
+    margin-left: 0;
+    margin-right: 50px;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+
+  .projects {
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 700px;
+    min-width: 300px;
+  }
+}
+
 
 @media (max-width: 896px) {
 
@@ -1061,16 +1107,22 @@ svg circle:nth-child(2) {
     color: #fff;
   } 
 
+  .portfolio-list-section {
+    left: 0px;
+    margin-top: 10px;
+    margin-left: -8%;
+  }
+
   .portfolio-list-section ul {
-    margin-left: -160px;
+    margin-left: -30px;
+    margin-right: 50px;
+    width: 90%;
+    flex-wrap: wrap;
   }
 
-  .portfolio-list-section ul li {
-    padding: 8px 10px;
-  }
-
-  .projects {
-    margin-left: -35px;
+  .projects .itemBox h3,
+  .projects .itemBox p {
+    text-align: center;
   }
 
   .projects .itemBox img {
@@ -1262,8 +1314,8 @@ svg circle:nth-child(2) {
 
   .portfolio-list-section ul {
     flex-wrap: wrap;
-    margin-left: -130px;
-    max-width: 450px;
+    margin-left: -15%;
+    max-width: 90%;
   }
 
   .projects {
@@ -1289,4 +1341,14 @@ svg circle:nth-child(2) {
   .footer h4 {
     font-size: 1em;
   }
+}
+
+@media (max-width: 420px) {
+
+  .portfolio-list-section ul {
+    flex-wrap: wrap;
+    margin-left: -10%;
+    max-width: 60%;
+  }
+
 }
