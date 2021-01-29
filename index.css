@@ -987,7 +987,7 @@ svg circle:nth-child(2) {
 
   .footer .sci li a img {
     filter: initial(1);
-    max-width: 30px;
+    max-width: 40px;
   }
 
   .resume .contentBx .resume-container {
@@ -1076,6 +1076,18 @@ svg circle:nth-child(2) {
   .projects .itemBox img {
     opacity: 0.2;
     transform: scale(1);
+  }
+}
+
+@media (max-width: 500px) {
+  
+  .footer .sci li a img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .copyrightText {
+    font-size: 1em;
   }
 }
 
