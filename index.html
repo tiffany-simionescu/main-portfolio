@@ -1,7 +1,7 @@
-<!-- MAKE CONTACT FORM FUNCTIONAL -->
-<!-- STYLE VARIOUS MEDIA SIZES - STILL WORKING ON MEDIA 481PX -->
-<!-- UPDATE REACT PORTFOLIO LINK AND SWITCH DOMAIN TO HERE -->
-<!-- CENTER RESUME HEADING -->
+<!-- UPDATE DOMAIN TO MAIN PORTFOLIO -->
+<!-- FIX RESUME SECTION -->
+<!-- RESUME = ONCE SCREEN SIZE GETS TO TABLET, REMOVE GRAYSCALE HOVER,
+              GET SKILLS TO FIT WITH VARIOUS SCREEN SIZES -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -17,7 +17,7 @@
       <li><a href="#about">About</a></li>
       <li><a href="#resume">Resume</a></li>
       <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <!-- <li><a href="#contact">Contact</a></li> -->
     </ul>
 
     <section class="banner">
@@ -298,7 +298,7 @@
             built using React and Material UI.
           </p>
         </div>
-        <div class="itemBox redux">
+        <div class="itemBox react redux">
           <a href="https://fox-app.now.sh/cat-image" target="_blank">
             <img src="./Images/redux1.jpg">
           </a>
@@ -432,6 +432,26 @@
             first search, randomness and connected components.
           </p>
         </div>
+        <div class="itemBox react redux">
+          <a href="https://tiffany-simionescu.github.io/react-portfolio" target="_blank">
+            <img src="./Images/react3">
+          </a>
+          <h3>React Portfolio</h3>
+          <p>This project is the original React and Redux version of this portfolio. 
+            This project was created using React, Material-UI, LESS, Styled-Components, 
+            Redux, and email.js. 
+          </p>
+        </div>
+        <div class="itemBox github">
+          <a href="https://github.com/tiffany-simionescu/react-portfolio" target="_blank">
+            <img src="./Images/github7">
+          </a>
+          <h3>React Portfolio - Github</h3>
+          <p>This project is the original React and Redux version of this portfolio. 
+            This project was created using React, Material-UI, LESS, Styled-Components, 
+            Redux, and email.js. 
+          </p>
+        </div>
       </div>
     </section>
     
@@ -439,62 +459,66 @@
       <img src="./Images/banner3.jpg" class="fitBg">
     </section>
 
-    <span id="contact"></span>
-    <section class="contact">
-      <div class="contact-container">
-        <h2 class="titleText">Contact Me</h2>
-        <div class="row100">
-          <div class="col">
-            <div class="inputBox">
-              <input type="text" name="" required="required">
-              <span class="contact-text">First Name</span>
-              <span class="line"></span>
+    <!-- <span id="contact"></span>
+      <section class="contact">
+        <form action="./contact-form-handler.php"
+          method="POST"
+          enctype="multipart/form-data"
+          name="EmailForm">
+        <div class="contact-container">
+          <h2 class="titleText">Contact Me</h2>
+          <div class="row100">
+            <div class="col">
+              <div class="inputBox">
+                <input type="text" name="first_name" required="required">
+                <span class="contact-text">First Name</span>
+                <span class="line"></span>
+              </div>
+            </div>
+            <div class="col">
+              <div class="inputBox">
+                <input type="text" name="last_name" required="required">
+                <span class="contact-text">Last Name</span>
+                <span class="line"></span>
+              </div>
             </div>
           </div>
-          <div class="col">
-            <div class="inputBox">
-              <input type="text" name="" required="required">
-              <span class="contact-text">Last Name</span>
-              <span class="line"></span>
+          <div class="row100">
+            <div class="col">
+              <div class="inputBox">
+                <input type="text" name="email" required="required">
+                <span class="contact-text">Email</span>
+                <span class="line"></span>
+              </div>
+            </div>
+            <div class="col">
+              <div class="inputBox">
+                <input type="text" name="phone" required="required">
+                <span class="contact-text">Phone</span>
+                <span class="line"></span>
+              </div>
             </div>
           </div>
+          <div class="row100">
+            <div class="col">
+              <div class="inputBox textarea">
+                <textarea name="text_area" required="required"></textarea>
+                <span class="contact-text">Type your message Here...</span>
+                <span class="line"></span>
+              </div>
+            </div>
         </div>
         <div class="row100">
           <div class="col">
-            <div class="inputBox">
-              <input type="text" name="" required="required">
-              <span class="contact-text">Email</span>
-              <span class="line"></span>
-            </div>
-          </div>
-          <div class="col">
-            <div class="inputBox">
-              <input type="text" name="" required="required">
-              <span class="contact-text">Mobile</span>
-              <span class="line"></span>
-            </div>
+            <input type="submit" value="Send" class="btn">
           </div>
         </div>
-        <div class="row100">
-          <div class="col">
-            <div class="inputBox textarea">
-              <textarea required="required"></textarea>
-              <span class="contact-text">Type your message Here...</span>
-              <span class="line"></span>
-            </div>
-          </div>
-      </div>
-      <div class="row100">
-        <div class="col">
-          <!-- MAKE CONTACT FORM FUNCTIONAL -->
-          <input type="submit" value="Send" class="btn">
-        </div>
-      </div>
-    </section>
+      </form>
+      </section>
 
     <section class="banner3">
       <img src="./Images/banner5.jpg" class="fitBg">
-    </section>
+    </section> -->
 
     <section class="footer">
       <ul class="sci">
