@@ -893,12 +893,6 @@ svg circle:nth-child(2) {
   }
 
   .resume .titleText {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    text-align: center;
-    margin-top: -50px; */
     margin-left: 36%;
   }
 
@@ -971,12 +965,6 @@ svg circle:nth-child(2) {
   }
 
   .resume .titleText {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    text-align: center;
-    margin-top: -50px; */
     margin-left: 33%;
   }
 }
@@ -1002,12 +990,6 @@ svg circle:nth-child(2) {
   }
 
   .resume .titleText {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    text-align: center;
-    margin-top: -50px; */
     margin-left: 33%;
   }
 }
@@ -1033,7 +1015,7 @@ svg circle:nth-child(2) {
   }
 
   .resume {
-    min-height: 700px;
+    min-height: 900px;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -1155,17 +1137,17 @@ svg circle:nth-child(2) {
   }
 }
 
-@media (max-width: 789px) {
-
-  .resume .contentBx .resume-container .resume-box .resume-imgBx h4,
-  .resume .contentBx .resume-container .resume-box .resume-imgBx h5,
-  .resume .contentBx .resume-container .resume-box .resume-imgBx ul li {
-    font-size: 0.7em;
-  }
-}
-
 
 @media (max-width: 769px) {
+
+  .resume {
+    min-height: 800px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 15%;
+  }
   
   section {
     padding: 40px;
@@ -1278,19 +1260,28 @@ svg circle:nth-child(2) {
 }
 
 
+@media (max-width: 600px) {
+
+  .resume .contentBx .resume-container {
+    height: calc(100% - 100px);
+    width: calc(100% - 250px);
+    margin-left: 5%;
+  }
+}
+
+
 @media (max-width: 583px) {
 
   .resume .contentBx .resume-container .resume-box .resume-imgBx h4,
   .resume .contentBx .resume-container .resume-box .resume-imgBx h5,
   .resume .contentBx .resume-container .resume-box .resume-imgBx ul li {
-    font-size: 0.65em;
+    font-size: 0.8em;
   }
 
   .resume .contentBx .titleText {
     margin-left: 35%;
   }
 }
-
 
 @media (max-width: 500px) {
   
@@ -1301,6 +1292,12 @@ svg circle:nth-child(2) {
 
   .copyrightText {
     font-size: 1em;
+  }
+
+  .resume .contentBx .resume-container {
+    height: calc(100% - 100px);
+    width: calc(100% - 300px);
+    margin-left: 11%;
   }
 
   .resume .contentBx .titleText {
